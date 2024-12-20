@@ -256,6 +256,7 @@ function lib:CreateWindow(title)
 		Items.Size = UDim2.new(0, 455, 0, 245)
 		Items.ScrollBarThickness = 0
 		Items.Visible = false
+		Items.CanvasSize = UDim2.new(0, 0, 15, 0)
 
 		UIPadding_2.Parent = Items
 		UIPadding_2.PaddingTop = UDim.new(0, 2)
